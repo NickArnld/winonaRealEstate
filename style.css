@@ -1,0 +1,111 @@
+body, html{
+    height: 100%;
+}
+.paralax{
+    height: 100%;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-right: 20px;
+    /* padding-top: 10vh; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#topPara{
+    background-image: url('./images/Visit-Winona-Summer-Scenery-4.jpg');
+}
+#botPara{
+    background-image: url('./images/lakeWinona.jpg');
+    padding-top: 10px;
+    height: 70%;
+}
+#nBar{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(250, 41, 41, 0.849);
+    /* Box shadow at the bottom */
+}
+.navItem{
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    padding: 3px 6px;
+    border-style: solid;
+    border-color:rgba(182, 182, 182, 0);
+    font-size: 30px;
+    color: whitesmoke;
+}
+a.navItem:hover{
+    /* border-style: solid;
+    background-color: rgb(214, 214, 214);
+    border-color: red; */
+    box-shadow: 0 0 5px 2px rgb(216, 216, 216);
+}
+.navLeft{
+    position: absolute;
+    text-align: left;
+}
+.navRight{
+    position: absolute;
+    right: 10px;
+    text-align: right;
+}
+#contactDiv{
+    /* height:; */
+    width: 25%;
+    margin-right: 5%;
+    padding-top: 80px;
+    float: right;
+    /* position: fixed; */
+    /* visibility: hidden; */
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+}
+.cPhoto{
+    width: 80%;
+    margin: 5px 10%;
+}
+
+#listDiv{
+    float: left;
+    margin-top: 25%;
+    margin-left: 5%;
+    /* width:10%; */
+}
+#listDiv h1{
+    color: whitesmoke;
+}
+#listDiv button{
+    height: 20px;
+}
+#aboutDiv{
+    height: 600px;
+}
+.aPhoto{
+    height: 80%;
+    margin-left: 5%;
+}
+#aboutP{
+    float: right;
+    margin-right: 55%;
+}
+#botDiv{
+    height: 400px;
+}
+.block{
+    width: 100%;
+    margin-top: -20px;
+    margin-left: -10px;
+    padding-right: 20px;
+    background-color: rgb(231, 231, 231);
+}
+.header{
+    color: rgba(250, 41, 41);
+    padding-top: 20px;
+    margin-left: 5%;
+}

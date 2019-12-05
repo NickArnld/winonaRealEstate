@@ -1,0 +1,46 @@
+body, html{
+    height: 100%;
+}
+.paralax{
+    background-image: url('./images/Visit-Winona-Summer-Scenery-4.jpg');
+    margin-top: -50px;
+    /* margin-left: -10px;
+    margin-right: -10px; */
+    padding-top: 10vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nBar{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(216, 216, 216);
+}
+.navItem{
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+    padding: 3px;
+    border-style: solid;
+    border-collapse: black;
+    background-color: rgb(182, 182, 182);
+}
+.navItem :hover{
+    background-color: rgb(182, 182, 182);
+}
+.navRight{
+    position: relative;
+    top: -18px;
+    right: 10px;
+    text-align: right;
+}
+.blah{
+    height: 200px;
+}
+.blah1{
+    margin-top: 50px;
+}
