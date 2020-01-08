@@ -14,11 +14,11 @@ body, html{
     background-size: cover;
 }
 #topPara{
-    background-image: url('./images/Visit-Winona-Summer-Scenery-4.jpg');
+    background-image: url('./images/blackAndWhiteWinona.jpg');
 }
 #botPara{
     /* background-image: url('./images/lakeWinona.jpg'); */
-    background-image: url('./images/IMG_2785.jpg');
+    background-image: url('./images/blackAndWhiteHouse.jpg');
     padding-top: 10px;
     height: 70%;
 }
@@ -42,6 +42,7 @@ body, html{
     text-decoration: none;
     color: whitesmoke;
     cursor: pointer;
+    font-family: 'Public Sans', sans-serif;
 }
 a.navItem:hover{
     /* border-style: solid;
@@ -52,10 +53,11 @@ a.navItem:hover{
 .navLeft{
     position: absolute;
     text-align: left;
+    left: 10px;
 }
 .navRight{
     position: absolute;
-    right: 10px;
+    right: 20px;
     text-align: right;
 }
 .footer{
@@ -74,6 +76,7 @@ a.navItem:hover{
     /* visibility: hidden; */
     background-color: rgb(231, 231, 231);
     text-align: center;
+    font-family: 'Public Sans', sans-serif;
     border-radius: 5px;
 }
 .cPhoto{
@@ -87,8 +90,21 @@ a.navItem:hover{
     margin-left: 5%;
     /* width:10%; */
 }
-#listDiv h1, .button h3{
+#listDiv h1{
+    color: rgba(251, 251, 251);
+    letter-spacing: 1px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 35px;
+    text-shadow: 
+        -1px 0 rgba(230, 41, 41), 
+        0 1px  rgba(230, 41, 41), 
+        1px 0  rgba(230, 41, 41), 
+        0 -1px rgba(230, 41, 41);
+}
+
+.button h3{
     color: whitesmoke;
+    font-family: 'Public Sans', sans-serif;
 }
 .button{
     background-color: rgba(230, 41, 41);
@@ -99,28 +115,32 @@ a.navItem:hover{
     cursor: pointer;
 }
 .button:hover{
-
+    box-shadow: 0 0 10px 4px rgb(216, 216, 216);
 }
 #aboutDiv{
     height: 600px;
 }
-.aPhoto{
-    height: 80%;
+#aPhoto{
+    height: 45%;
     margin-left: 5%;
+    margin-right: 30px;
+    margin-bottom: 1px;
+    float: left;
 }
 .para{
     margin: 10px 5%;
     font-size: large;
     line-height: 3rem;
+    font-family: 'Merriweather', serif; 
 }
 #aboutP{
-    
+
 }
-#botP{
+#botP{ 
 
 }
 #botDiv{
-    height: 400px;
+    height: 350px;
 }
 .block{
     width: 100%;
@@ -133,4 +153,31 @@ a.navItem:hover{
     color: rgba(250, 41, 41);
     padding-top: 20px;
     margin-left: 5%;
+    font-family: 'Public Sans', sans-serif;
+}
+/* font-family: 'Public Sans', sans-serif;
+font-family: 'Merriweather', serif; */
+@media only screen and (max-width: 1200px){
+    .para{
+        line-height: 2rem;
+    }
+}
+@media only screen and (max-width: 1079px){
+    #listDiv h1{
+        font-size: 25px;
+    }
+    #contactDiv{
+        font-size: 14px;
+    }
+    #aboutDiv{
+        height: 700px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #listDiv h1{
+        font-size: 20px;
+    }
+    #aboutDiv{
+        height: 780px;
+    }
 }
