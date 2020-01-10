@@ -90,6 +90,9 @@ a.navItem:hover{
     margin-left: 5%;
     /* width:10%; */
 }
+.bigText{
+ font-size: 40px;
+}
 #listDiv h1{
     color: rgba(251, 251, 251);
     letter-spacing: 1px;
@@ -101,7 +104,6 @@ a.navItem:hover{
         1px 0  rgba(230, 41, 41), 
         0 -1px rgba(230, 41, 41);
 }
-
 .button h3{
     color: whitesmoke;
     font-family: 'Public Sans', sans-serif;
