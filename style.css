@@ -7,7 +7,6 @@ body, html{
     margin-top: -10px;
     margin-left: -10px;
     padding-right: 20px;
-    /* padding-top: 10vh; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +16,6 @@ body, html{
     background-image: url('./images/blackAndWhiteWinona.jpg');
 }
 #botPara{
-    /* background-image: url('./images/lakeWinona.jpg'); */
     background-image: url('./images/blackAndWhiteHouse.jpg');
     padding-top: 10px;
     height: 70%;
@@ -29,7 +27,6 @@ body, html{
     top: 0;
     left: 0;
     background-color: rgba(230, 41, 41);
-    /* Box shadow at the bottom */
 }
 .navItem{
     position: relative;
@@ -45,9 +42,6 @@ body, html{
     font-family: 'Public Sans', sans-serif;
 }
 a.navItem:hover{
-    /* border-style: solid;
-    background-color: rgb(214, 214, 214);
-    border-color: red; */
     box-shadow: 0 0 5px 2px rgb(216, 216, 216);
 }
 .navLeft{
@@ -67,13 +61,10 @@ a.navItem:hover{
     margin-left: -10px;
 }
 #contactDiv{
-    /* height:; */
     width: 25%;
     margin-right: 5%;
     padding-top: 80px;
     float: right;
-    /* position: fixed; */
-    /* visibility: hidden; */
     background-color: rgb(231, 231, 231);
     text-align: center;
     font-family: 'Public Sans', sans-serif;
@@ -88,7 +79,6 @@ a.navItem:hover{
     float: left;
     margin-top: 25%;
     margin-left: 5%;
-    /* width:10%; */
 }
 .bigText{
  font-size: 40px;
