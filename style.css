@@ -125,12 +125,6 @@ a.navItem:hover{
     line-height: 3rem;
     font-family: 'Merriweather', serif; 
 }
-#aboutP{
-
-}
-#botP{ 
-
-}
 #botDiv{
     height: 350px;
 }
@@ -164,6 +158,12 @@ font-family: 'Merriweather', serif; */
     #aboutDiv{
         height: 700px;
     }
+    #topPara{
+        height: 85%;
+    }
+    #botPara{
+        height: 50%;
+    }
 }
 @media only screen and (max-width: 768px){
     #listDiv h1{
@@ -171,5 +171,76 @@ font-family: 'Merriweather', serif; */
     }
     #aboutDiv{
         height: 780px;
+    }
+    #contactDiv{
+        font-size: 10px;
+        width: 30%;
+    }
+    #listDiv{
+        font-size: 15px;
+        width: 50%;
+    }
+    #topPara{
+        height: 70%;
+    }
+}
+@media only screen and (max-width: 470px){
+    #nBar{
+        height: 70px;
+    }
+    .navItem{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .navRight{
+        right: 35px;
+    }
+    #contactDiv{
+        font-size: 10px;
+        width: 40%;
+        margin-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #listDiv{
+        font-size: 10px;
+        width: 40%;
+    }
+    #listDiv h1{ 
+        letter-spacing: 0px;
+    }
+    .para{
+        font-size: small;
+        line-height: 1rem;
+        font-family: 'Merriweather', serif; 
+    }
+    #aPhoto{
+        height: 40%;
+        margin-left: 3%;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+    #aboutDiv{
+        height: 870px;
+    }
+    #botDiv{
+        height: 300px;
+    }
+    .footer{
+        height: 0px;
+    }
+    .button{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 370px){
+    #topPara, #botPara{
+        padding-right: 50px;
+    }
+    .block{
+        padding-right: 50px;
+    }
+    #aPhoto{
+        height: 35%;
     }
 }
