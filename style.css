@@ -59,6 +59,8 @@ a.navItem:hover{
     background-color: rgba(230, 41, 41);
     width: 101.5%;
     margin-left: -10px;
+    margin-top: -15px;
+    text-align: center;
 }
 #contactDiv{
     width: 25%;
@@ -69,6 +71,9 @@ a.navItem:hover{
     text-align: center;
     font-family: 'Public Sans', sans-serif;
     border-radius: 5px;
+}
+#contactDiv h3 a{
+    color: rgba(230, 41, 41);
 }
 .cPhoto{
     width: 80%;
@@ -140,6 +145,9 @@ a.navItem:hover{
     padding-top: 20px;
     margin-left: 5%;
     font-family: 'Public Sans', sans-serif;
+}
+.footer p{
+    color: whitesmoke;
 }
 /* font-family: 'Public Sans', sans-serif;
 font-family: 'Merriweather', serif; */
